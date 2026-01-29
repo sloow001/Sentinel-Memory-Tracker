@@ -21,7 +21,7 @@ int main(){
     obj->x = 90;
     obj->y = 3.14;
     
-    // Not freeing obj
+    // Not deleting obj
 
     Sentinel::reportLeaks();
     return 0;
