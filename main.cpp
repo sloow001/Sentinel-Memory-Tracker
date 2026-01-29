@@ -7,7 +7,7 @@ struct TestObject{
 };
 
 int main(){
-    std::cout << "Sentinel Memory Tracker Demo\n";
+    std::cout << "Sentinel Memory Tracker\n";
 
     // Correct Allocation
     int* a = static_cast<int*>(SENTINEL_NEW(sizeof(int)));
